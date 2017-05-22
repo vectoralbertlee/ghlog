@@ -19,8 +19,7 @@
                 "Basic",
                 "Standard"
             ],
-            "defaultValue": "Free"
-        },
+            "defaultValue": "Free"        },
         "workerSize": {
             "type": "string",
             "allowedValues": [
@@ -63,12 +62,6 @@
             "siteConfig": {
               "appSettings": []
             },
-        
-Error: Parse error on line 65:
-...         },        },        "resource
-----------------------^
-Expecting 'STRING'
-},
         "resources": [{
             "apiVersion": "2015-08-01",
             "name": "web",
