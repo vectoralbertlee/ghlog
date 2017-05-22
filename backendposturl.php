@@ -11,3 +11,12 @@ $status = $_REQUEST["Status"];
 $errdesc = $_REQUEST["ErrDesc"];
 $signature = $_REQUEST["Signature"];
 ?>
+
+IF ($status=1) {
+  //COMPARE Return Signature with Generated Response Signature
+  //update order to PAID
+  echo "RECEIVEOK";
+}
+ELSE {
+  // update order to FAIL
+}
