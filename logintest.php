@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Login Test/title>
+    <title>Login Test</title>
   </head>
   <body>
     <h1>Login Test</h1>
