@@ -33,7 +33,8 @@ if (isset($decoded->response->status) && $decoded->response->status == 'ERROR') 
 }
 
 echo 'response ok!';
-
+echo $curl_response;
+    
 var_export($decoded->response);
 
     ?>
